@@ -24,6 +24,12 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 
 - [UN Climate Change E-Learning](https://unccelearn.org/course/)
 
+### Other Climate Change + AI Resources
+
+- [AI, People & Planet](https://www.aipeopleplanet.earth/)
+- [Climate Informatics](http://climateinformatics.org/)
+- [Open Climate Fix](https://openclimatefix.org/)
+
 ## 1. Electricity Systems
 
 ### Background Reading
@@ -48,6 +54,7 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 
 #### General
 
+- [Energy Policy Simulator](https://us.energypolicy.solutions/docs/) from [Energy Innovation LLC](https://energyinnovation.org/)
 - [Public Utility Data Liberation (PUDL) Project](https://catalyst.coop/pudl/)
 - US independent system operators/regional transmission organizations (ISOs/RTOs): [CAISO](http://www.caiso.com/TodaysOutlook/Pages/prices.aspx), [ERCOT](http://www.ercot.com/gridinfo), [ISO-NE](https://www.iso-ne.com/markets-operations), [MISO](https://www.misoenergy.org/markets-and-operations/), [NYISO](https://www.nyiso.com/energy-market-operational-data), [PJM](https://dataminer2.pjm.com/list), and [SPP](https://marketplace.spp.org/)  
 
@@ -56,6 +63,7 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 - [Global Energy Forecasting Competition](http://www.drhongtao.com/gefcom)
 - [SubseasonalRodeo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IHBANG)
 - [American Meteorological Society 2013-2014 Solar Energy Prediction Contest](https://www.kaggle.com/c/ams-2014-solar-energy-prediction-contest)
+- [Optimal Power Flow (OPF) Sampler Package](https://github.com/invenia/OPFSampler.jl/)
 
 #### Accelerated Science for Materials
 
@@ -92,6 +100,7 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 - **Multispectral satellite images (5-13 visible and infrared bands)**:
     - Public
         - [Copernicus dataset (Sentinel satellites)](https://www.copernicus.eu/en/access-data)
+        - [BigEarthNet dataset (Sentinel satellites)](http://bigearth.net/)
 
     - Commercial
         - [Digital Globe](https://www.digitalglobe.com/)
@@ -107,6 +116,7 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 - [Greening the Grid toolkit](https://greeningthegrid.org/toolkits)
 - [Electric Power Systems online course (Coursera)](https://www.coursera.org/learn/electric-power-systems)
 - [PowerTAC testing platform](https://powertac.org/)
+- [Google Project Sunroof](https://www.google.com/get/sunroof/data-explorer/) (detailed estimates of solar potential based on sunlight and roof space)
 
 ### Events, Conferences and Journals
 
@@ -169,11 +179,12 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 
 #### City Metabolism
 
-The ‘’metabolism’’ of a city includes the electricity used, waste generated, and GHG emitted.
+The "metabolism" of a city includes the electricity used, waste generated, and GHG emitted.
 
 - Metabolism data for 150 cities is listed at [https://metabolismofcities.org/resources/data/datasets](https://metabolismofcities.org/resources/data/datasets).
 - The China Emission Accounts & Datasets provides energy, emission and socio-economic accounting inventories for China [https:/ceads.net](http://www.ceads.net/).
 - First attempts of global databases on cities emissions and relevant ancillary metrics include [https://www.nature.com/articles/sdata2018280](https://www.nature.com/articles/sdata2018280).
+- The [Carbon Disclosure Project](https://www.cdp.net/) provides a global platform for cities to measure and disclose environmental data; a variety of datasets are available at [https://data.cdp.net](https://data.cdp.net/).
 
 #### Urban Land Use, Infrastructure Data
 
@@ -262,6 +273,9 @@ The largest climate prediction datasets are ensembles of many climate simulation
 - [The CESM Large Ensemble,](http://www.cesm.ucar.edu/experiments/cesm1.1/LE/)
 	- Read about it in [https://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00255.1](https://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00255.1)
 
+- [Google Cloud Weather and Climate Datasets](https://cloud.google.com/public-datasets/weather/)
+  - Petabyte-scale weather and climate datasets from sources like NOAA's [NEXRAD](https://www.ncdc.noaa.gov/data-access/radar-data/nexrad) and NASA/USGS's [Landsat](https://landsat.gsfc.nasa.gov/), made available for free as part of  Google Cloud's Public Datasets Program.
+
 **N.B.** Climate model data is typically presented in netcdf4 format. These may be smoothly converted to csv files or [pandas dataframes](https://stackoverflow.com/questions/14035148/import-netcdf-file-to-pandas-dataframe), but be aware that the data lies on irregular 3D spherical grids.
 
 The Earth and climate science community is also working to create benchmark datasets: [https://is-geo.org/benchmarks/](https://is-geo.org/benchmarks/)
@@ -319,6 +333,7 @@ Improved disease surveillance and response is an important part of adaptation --
 - [PLOS Responding to Climate Change](https://channels.plos.org/rtcc)
 - [ACM Compass](https://acmcompass.org/)
 - [AI for Good Global Summit](https://www.itu.int/en/ITU-T/AI/2018/Pages/default.aspx)
+- [Lancet Health and Climate Change](https://www.thelancet.com/climate-and-health)
 
 
 ## 9. Solar Geoengineering
