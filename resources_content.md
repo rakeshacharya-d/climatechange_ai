@@ -63,6 +63,7 @@ For an overall introduction to the topic of climate change, we provide a (non-ex
 - [Global Energy Forecasting Competition](http://www.drhongtao.com/gefcom)
 - [SubseasonalRodeo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IHBANG)
 - [American Meteorological Society 2013-2014 Solar Energy Prediction Contest](https://www.kaggle.com/c/ams-2014-solar-energy-prediction-contest)
+- [Rural Electricity Demand in India (REDI) Dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1ZNLUY)
 - [Optimal Power Flow (OPF) Sampler Package](https://github.com/invenia/OPFSampler.jl/)
 
 #### Accelerated Science for Materials
